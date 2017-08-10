@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ html,body,#wrapper {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   -webkit-text-size-adjust: 100%;
+   color: #333;
+ }
+ .clear:after {
+   content: "";
+   display: block;
+   clear: both;
+ }
